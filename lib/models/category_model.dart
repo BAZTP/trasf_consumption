@@ -79,11 +79,6 @@ class CategoryModel {
       case 'servicios':
         return Icons.receipt_long;
       default:
-        final codePoint = int.tryParse(icon, radix: 16);
-        if (codePoint != null) {
-          // ignore: non_const_argument_for_const_parameter
-          return IconData(codePoint, fontFamily: 'MaterialIcons');
-        }
         return Icons.more_horiz;
     }
   }
