@@ -15,7 +15,7 @@ android {
 
     defaultConfig {
         applicationId = "com.baztp.transf_consumption"
-        minSdk = 23
+        minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
